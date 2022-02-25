@@ -13,5 +13,6 @@ class MyApp : Application() {
     override fun onCreate() {
         super.onCreate()
         ActivityThreadHook.hookActivityThread()
+        var r1 = R.layout.activity_main
     }
 }
